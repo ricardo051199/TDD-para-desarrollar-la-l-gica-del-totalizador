@@ -5,5 +5,6 @@ calcularTotal(cantidad, precio, estado)
         - para una cantidad cualquiera OK
 - calcular total para un estado por defecto (CA) OK
 - calcular total para varios impuestos 
+        -para UT OK 
 - calcular total para un descuento de:
 - calcular total para varios descuentos 
