@@ -14,3 +14,4 @@ calcularTotal(cantidad, precio, estado)
         - 3% OK
         - 5% OK
         - 7% OK
+        - 10% OK
