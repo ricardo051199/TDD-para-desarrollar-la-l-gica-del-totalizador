@@ -7,5 +7,6 @@ calcularTotal(cantidad, precio, estado)
 - calcular total para varios impuestos 
         - para UT OK 
         - para NV OK
+        - para TX OK
 - calcular total para un descuento de:
 - calcular total para varios descuentos 
