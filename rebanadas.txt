@@ -12,3 +12,4 @@ calcularTotal(cantidad, precio, estado)
 - calcular total para un descuento por defecto (0%) OK 
 - calcular total para varios descuentos 
         - 3% OK
+        - 5% OK
