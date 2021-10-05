@@ -20,6 +20,9 @@ describe("Totalizador ", () => {
   it("deberia calcular para el estado de AL", () => {
     expect(calcularTotal(2, 2, "AL")).toEqual(4.16);
   });
+  it("calcular total para un descuento de 0%", () => {
+    expect(calcularTotal(2, 2, "AL")).toEqual(4.16);
+  });
 });
 
 function impuestoEstado(estado){
@@ -31,5 +34,6 @@ function calcularTotal(cantidad, precio, estado) {
   let total = cantidad * precio;
   let impuesto = impuestoEstado(estado);
   total = total + total * impuesto;
+  total = total - 0;
   return total;
 }
