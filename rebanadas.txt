@@ -2,6 +2,7 @@ calcularTotal(cantidad, precio, estado)
 
 - calcular total (precio * cantidad)
         - para una cantidad por defecto OK
+        - para una cantidad cualquiera OK
 - calcular total incluyendo un estado: 
 - calcular total para varios impuestos 
 - calcular total para un descuento de:
